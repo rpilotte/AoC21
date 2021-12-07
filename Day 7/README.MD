@@ -11,7 +11,7 @@ No real programatic possibility as Solver needs to be invoked.
 
 Simple formula leveraging "fuel=distance=ABS(CurrentPosition-DestinationPosition)" to calculate the fuel consumption for Part 1.
 
-For Part 2, the trick is to see that fuel=((distance+1)\*distance)/2, still with distance=ABS(CurrentPosition-DestinationPosition).
+For Part 2, the trick is to see that fuel=((distance+1)\*distance)/2, still with distance=ABS(CurrentPosition-DestinationPosition). No need to compute this!
 
 Then solver is used for minimizing the sum of all the fuel consumptions.
 
